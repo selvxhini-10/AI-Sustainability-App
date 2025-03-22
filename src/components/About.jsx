@@ -16,7 +16,7 @@ const About = () => {
           We are a team of passionate innovators dedicated to leveraging artificial intelligence to revolutionize sustainable agriculture. 
           Our goal is to empower farmers with cutting-edge solutions that optimize crop management, promote sustainability, reduce environmental impact, and improve food security.
           </p> 
-          <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><a href="#home">GitHub Repo</a></button>
+          <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><a href="https://github.com/selvxhini-10/AI-Sustainability-App.git">GitHub Repo</a></button>
         </div>
       </div>
       </div>
