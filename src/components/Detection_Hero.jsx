@@ -2,7 +2,7 @@ import React from 'react'
 import { TbFileTypeDoc } from 'react-icons/tb';
 import Hero from '../assets/crop_disease.mp4'
 import Laptop from '../assets/laptop.jpg'
-=
+
 
 
 const Detection_Hero = () => {
