@@ -12,6 +12,7 @@ import Features from './components/Features';
 import Functions from './components/Functions';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Irrigation from './pages/Irrigation';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/home' element={<Home/>} />
         <Route index element={<Home/>} />
         <Route path='/detection' element={<Detection/>} />
+        <Route path='/irrigation' element={<Irrigation/>} />
       
       </Routes>
       </BrowserRouter>

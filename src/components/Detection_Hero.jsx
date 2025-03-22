@@ -1,8 +1,6 @@
 import React from 'react'
 import { TbFileTypeDoc } from 'react-icons/tb';
 import Hero from '../assets/crop_disease.mp4'
-import Laptop from '../assets/laptop.jpg'
-
 
 
 const Detection_Hero = () => {
@@ -36,24 +34,7 @@ const Detection_Hero = () => {
             </div>
             </div>
 </div>
- <div className='w-full bg-white py-16 px-4'>
- <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
- <img className='w-[500px] mx-auto my-4' src={Laptop} alt='/' />
- <div className='flex flex-col justify-center'>
-   <p className='text-[#399a4b] font-bold '>Crop Disease Classifier</p>
-   <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Upload An Image</h1>
-   <p>
-   This AI-powered plant disease classifier analyzes crop and plant images to detect diseases. Using deep learning, the model distinguishes between normal and disease-affected plants, providing quick and reliable results to support plant health solutions. Choose a file, and the model will predict whether it shows disease.
-   </p> 
-   <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'><a href="https://github.com/selvxhini-10/AI-Sustainability-App.git">Process</a></button>
- </div>
-</div>
 
-</div>
-<div className='w-full bg-white py-16 px-4'>
-
-    
-</div>
         </div>   
     );
 
