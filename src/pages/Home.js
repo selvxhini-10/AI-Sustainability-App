@@ -6,6 +6,7 @@ import Impact from '../components/Impact';
 import Project from '../components/Project';
 import Features from '../components/Features';
 import Functions from '../components/Functions';
+import UN from '../components/UN';
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Project/>
       <Functions/>
       <Features/>
+      <UN />
       <Impact/>
       <Newsletter/>
         </>

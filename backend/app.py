@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 import os
+import io
 
 app = Flask(__name__)
 CORS(app)
@@ -45,6 +46,22 @@ def detect():
         'image': encoded_image,
         'label': detected_labels
     })
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    if not request.json or 'message' not in request.json:
+        return jsonify({'error': 'No message provided'}), 400
+    
+    data = request.get_json()
+    user_message = data['message']
+    chat_history = data['chatHistory']
+
+    botResponse = f"{chatfront(chat_history, user_message)}"
+
+    return jsonify({'response': botResponse})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

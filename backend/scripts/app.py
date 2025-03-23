@@ -48,3 +48,21 @@ def detect():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+@app.route('/upload', methods=['POST'])
+def upload_image():
+    data = request.json
+    if 'image' in data:
+        # Decode the base64-encoded image
+        img_data = base64.b64decode(data['image'])
+        
+        # Convert the binary data to an image
+        img = Image.open(io.BytesIO(img_data))
+        img.save("received_image.jpg")  # Save the image
+        
+        return jsonify({"message": "Image received successfully"})
+    else:
+        return jsonify({"error": "No image found in request"}), 400
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000)
