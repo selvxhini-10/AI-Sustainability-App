@@ -1,5 +1,9 @@
 import React from 'react'
-import TechIcon from '../assets/tech.png'
+import React2 from '../assets/react.jpeg'
+import Node from '../assets/node.png'
+import Arduino from '../assets/arduino.png'
+import Flask from '../assets/flask.png'
+
 
 const Functions = () => {
 
@@ -19,10 +23,10 @@ const Functions = () => {
           <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
           {/* Replace with tech stack images */}
           <div className='max-w-[1240px] pt-[50px] mx-auto grid md:grid-cols-4 gap-8'>
-          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={TechIcon} alt="/" />
-          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={TechIcon} alt="/" />
-          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={TechIcon} alt="/" />
-            <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={TechIcon} alt="/" />
+          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={React2} alt="/" />
+          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Flask} alt="/" />
+          <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Node} alt="/" />
+            <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Arduino} alt="/" />
           </div>
 
         </div>
