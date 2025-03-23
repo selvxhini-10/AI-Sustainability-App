@@ -40,8 +40,7 @@ const Banner = () => {
     />
                 </div>
                 <p className='md:text-3xl sm:text-4xl text-xl font-bold py-4'>AI-powered farming solutions for a greener tomorrow. </p>
-                <button className='bg-[#399a4b] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Get Started</button>
-           
+               
             </div>
             </div>
 
