@@ -17,7 +17,7 @@ const Navbar = () => {
   {/* Top navigation */}
         <nav className="flex justify-between items-center mx-auto h-24 px-6 fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md text-white shadow-md p-4 z-20">
  
-            <h1 className='w-full text-3xl font-bold text-[#8dd783]'>REACT.</h1>
+            <h1 className='w-full text-3xl font-bold text-[#8dd783]'>AGRIVISION.</h1>
             <ul className='hidden md:flex'>
             <li className='p-4'>
           <a href="/home">Home</a> 

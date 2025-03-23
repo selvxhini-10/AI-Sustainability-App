@@ -30,7 +30,8 @@ const UN = () => {
               <h2 className='text-2xl font-bold text-center'>End Hunger</h2>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>We aim to achieve food security and improved nutrition and promote sustainable agriculture.
-                 This effort aligns with the World Food Programme's mission to achieve Zero Hunger, which is the UN’s 2nd goal, by ensuring that everyone has access to safe and nutritious food.</p>
+                  Every year, up to 40 percent of global crop production is lost due to plant diseases, costing the global economy $220 billion.  
+                  This effort aligns with the World Food Programme's mission to achieve Zero Hunger, which is the UN’s 2nd goal, by ensuring that everyone has access to safe and nutritious food.</p>
                   </div>
               <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><a href="https://www.globalgoals.org/goals/2-zero-hunger/">Learn More</a></button>
           </div>
@@ -52,6 +53,7 @@ const UN = () => {
           </div>
       </div>
     </div>
+
     </section>
   );
 };

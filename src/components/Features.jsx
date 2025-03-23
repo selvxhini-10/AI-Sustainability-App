@@ -36,7 +36,7 @@ const Features = () => {
           <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Disease} alt="/" />
               <h2 className='text-2xl font-bold text-center'>Crop Disease Detection</h2>
               <div className='text-center font-medium'>
-                  <p className='py-2 border-b mx-8 mt-8'>Using computer vision, we detect plant diseases early, minimizing crop loss and reducing the need for excessive pesticide use.</p>
+                  <p className='py-2 border-b mx-8 mt-8'>Using a large language model, we detect plant diseases early, minimizing crop loss and reducing the need for excessive pesticide use.</p>
                    </div>
               <button className='bg-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'><a href="/detection">Learn More</a></button>
           </div>
@@ -46,7 +46,7 @@ const Features = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Regression models will be used to predict yield based on historical data, weather conditions and temperature.</p>
                   </div>
-              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Learn More</button>
+              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>In Progress</button>
           </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Carbon} alt="/" />
@@ -54,7 +54,7 @@ const Features = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>By optimizing farming techniques, we reduce greenhouse gas emissions from inefficient agricultural practices, ensuring greater sustainability.</p>
                   </div>
-              <button className='bg-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Learn More</button>
+              <button className='bg-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>In Progress</button>
           </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Climate} alt="/" />
@@ -62,7 +62,7 @@ const Features = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Sustainable farming practices improve soil health, which assists in storing carbon and reducing atmospheric carbon dioxide levels.</p>
                   </div>
-              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Learn More</button>
+              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>In Progress</button>
           </div>
       </div>
     </div>
