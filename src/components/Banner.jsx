@@ -6,6 +6,7 @@ import Video from '../assets/farming-bg.mp4'
 
 const Banner = () => {
     return (
+      <section id="home">
         <div className="relative h-screen w-full flex items-center justify-center text-white">
       {/* Background Video */}
       <video 
@@ -45,6 +46,7 @@ const Banner = () => {
             </div>
 
            </div>
+           </section>
     );
 
 

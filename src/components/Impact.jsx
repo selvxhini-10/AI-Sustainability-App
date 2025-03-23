@@ -16,7 +16,7 @@ const Impact = () => {
                   <p className='py-2 border-b mx-8 mt-8'>Promote Regenerative Agriculture through AI-powered recommendations.</p>
                   
               </div>
-              <button className='bg-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
+             
           </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Single} alt="/" />
@@ -24,24 +24,21 @@ const Impact = () => {
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Leveraging data-driven insights to maximize crop yield.</p>
                   </div>
-              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
-          </div>
+                 </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Single} alt="/" />
               <h2 className='text-2xl font-bold text-center'>Reducing Environmental Footprint</h2>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Minimizing carbon emissions and chemical use in farming.</p>
                    </div>
-              <button className='bg-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
-          </div>
+               </div>
           <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
               <img className='w-20 mx-auto mt-[-3rem] bg-transparent' src={Single} alt="/" />
               <h2 className='text-2xl font-bold text-center'>Empowering Farmers with Technology</h2>
               <div className='text-center font-medium'>
                   <p className='py-2 border-b mx-8 mt-8'>Providing accessible and user-friendly AI solutions for better decision-making.</p>
                   </div>
-              <button className='bg-black text-[#8dd783] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
-          </div>
+             </div>
       </div>
     </div>
     </section>

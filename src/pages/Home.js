@@ -9,6 +9,7 @@ import Functions from '../components/Functions';
 import UN from '../components/UN';
 
 export default function Home() {
+    
     return (
         <>
     <Navbar />
@@ -22,4 +23,5 @@ export default function Home() {
       <Newsletter/>
         </>
     )
+   
 }

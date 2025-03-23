@@ -20,7 +20,7 @@ const Navbar = () => {
             <h1 className='w-full text-3xl font-bold text-[#8dd783]'>REACT.</h1>
             <ul className='hidden md:flex'>
             <li className='p-4'>
-          <a href="#home">Home</a> 
+          <a href="/home">Home</a> 
         </li>
         <li className='p-4'>
           <a href="#about">About</a>
