@@ -88,11 +88,12 @@ const Classifier = () => {
       message: userInput,
       chatHistory: messages
     };
-    fetch('http://127.0.0.1:5000/chat', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify(payload)
-    })
+    fetch("http://127.0.0.1:5000/chat", {  
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: userInput })
+  })
+  
     .then(response => response.json())
     .then(data => {
       setMessages([...messages, { sender: 'user', text: userInput}, {sender: 'bot', text: data.response}]);

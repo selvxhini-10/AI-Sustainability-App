@@ -26,7 +26,7 @@ const Detection_Hero = () => {
         <div className='text-white'>
         <div className="absolute top-0 left-0 w-full h-full"></div>
 
-                <p className='text-[#8dd783] md:text-2xl font-bold p-2'>Using Computer Vision to Analyze Crop Images</p>
+                <p className='text-[#8dd783] md:text-2xl font-bold p-2'>Using Computer Vision and LLM to Analyze Crop Images</p>
                 <div>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-3'>AI For Crop Disease Detection</h1>   
                 </div>
